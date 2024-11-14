@@ -5,6 +5,7 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import ContactSection from "./components/ContactSection";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <div className="container mx-auto px-8">
         <Navbar/>
         <Hero/>
+        <ContactSection/>
         <About/>
         <Technologies/>
         <Experience/>
